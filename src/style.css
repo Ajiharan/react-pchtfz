@@ -1,0 +1,22 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.componentA,
+.componentB {
+  height: 250px;
+  border: 1px solid gray;
+  width: 250px;
+  margin: 0 15px;
+}
+.buttons {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
